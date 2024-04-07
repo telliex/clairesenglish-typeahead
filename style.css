@@ -1,0 +1,25 @@
+.form{
+    position: relative;
+}
+.suggestions{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.suggestions ul{
+    border: 1px solid #333;
+
+}
+.suggestions li{
+    background-color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.suggestions li:hover{
+    background-color: #f2f2f2;
+}
+
+.suggestions li.selected{
+    background-color: #f2f2f2;
+}
